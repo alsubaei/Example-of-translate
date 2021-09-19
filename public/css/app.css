@@ -1,0 +1,17 @@
+                    body {
+                        background-color: /* #2893b1 !important; */
+                        /* #b15128 !important; */
+                        #2893b1 !important;
+                        /* #8a210c !important; */
+                        /* #d86650 !important; */
+                        /* #8a5933 !important; */
+                        /* #8a430c !important; */
+                    }
+                    
+                    .testimonial-item {
+                        color: #6addbb !important;
+                    }
+                    
+                    #testimonials .testimonial-item h4 {
+                        color: #8a430c !important;
+                    }
