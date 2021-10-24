@@ -26,9 +26,9 @@
 
 <!-- Main Stylesheet File -->
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-
 <!-- Custom Stylesheet File -->
 @yield('style')
+@include('layouts.headArabic')
 <!-- =======================================================
     Theme Name: Reveal
     Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/

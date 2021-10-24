@@ -18,5 +18,10 @@ Route::get('/', function () {
 
 */
 
-Route::get('/', [PagesController::class, 'Home']);
+Route::group([
+    'prefix' => LaravelLocalization::setLocale(),
+    'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
+], function() {
+    Route::get('/', [PagesController::class, 'Home']);
 // Route::get('/', 'PagesController@Home');
+});
